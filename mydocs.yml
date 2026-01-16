@@ -1,0 +1,19 @@
+# mkdocs.yml
+site_name: 自动化构建演示站
+site_url: http://172.29.5.231:8016  # 使用新端口避免冲突
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - 首页: index.md
+  - 快速开始: quickstart.md
+
+extra_css:
+  - assets/stylesheets/custom.css
